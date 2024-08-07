@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+h1 {
+    color: #3a27ce;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.navitem {
+    padding: 2%;
+    color: #ffffff; 
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.navitem:hover{
+    color: #ff0000;
+    transition: 0.8s ease;
+}
+
+img {
+   width: 25vh;
+}
+
+.startbut {
+    margin-top:28vh;
+}
